@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 /**
 * main - function to print
-* Return:0
+* Return: Always return zero
 */
 
-int main(void)
+void main(void)
 {
 	char dbtosine[8] = {'d', 'b', 't', 'o', 's', 'i', 'n', 'e'};
 	unsigned int c;
@@ -13,11 +12,11 @@ int main(void)
 	for (c = 0; c < sizeof(dbtosine); c++)
 	{
 
-	putchar(dbtosine[c]);
+	_putchar(dbtosine[c]);
 	}
-	putchar('\n');
+	_putchar('\n');
 
-	return (0);
+	return ();
 }
 
 
