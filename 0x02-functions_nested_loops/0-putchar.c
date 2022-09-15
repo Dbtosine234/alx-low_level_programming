@@ -1,39 +1,20 @@
-#include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
-* main - function to print
-* Return:0
+* main - Entry point
+*
+* Description: prints _putchar using putchar prototype
+*
+* Return: Always 0 (Success)
 */
 
 int main(void)
+
 {
-	char dbtosine[8] = {'D', 'b', 't', 'o', 's', 'i', 'n', 'e'};
-	unsigned int c;
-
-	for (c = 0; c < sizeof(dbtosine); c++)
-	{
-
-	_putchar(dbtosine[c]);
-	}
+	char str[] = "_putchar";
+	int ch;
+	for (ch = 0; ch < 8; ++ch)
+	_putchar(str[ch]);
 	_putchar('\n');
-
 	return (0);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
