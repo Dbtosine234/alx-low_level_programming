@@ -1,10 +1,9 @@
 #include "main.h"
 /**
 * main - function to print
-* Return: Always return zero
+* Return: Always return 0
 */
-
-void main(void)
+int main(void)
 {
 	char dbtosine[8] = {'d', 'b', 't', 'o', 's', 'i', 'n', 'e'};
 	unsigned int c;
@@ -16,7 +15,7 @@ void main(void)
 	}
 	_putchar('\n');
 
-	return ();
+	return (0);
 }
 
 
