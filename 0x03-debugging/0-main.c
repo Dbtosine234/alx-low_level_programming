@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
-*main -  test function that print if interger is p*ositive or negative
+*main -  test function that print if interger is p*ositive o*r negative
 *Return: 0
 */
 
 int main(void)
 {
-	int i:
+	int i;
 
 	i = 0;
-	postive_or_negative(i);
+	positive_or_negative(i);
 
 	return (0);
 }
