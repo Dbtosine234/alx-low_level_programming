@@ -1,38 +1,17 @@
 #include "main.h"
 /**
-* main - function to print
-* Return: Always return 0
+* print_alphabet - prints the alphabets in lower case
+* Return: returns 0 if successful
 */
-int main(void)
+
+void  print_alphabet(void)
 {
-	char dbtosine[8] = {'d', 'b', 't', 'o', 's', 'i', 'n', 'e'};
-	unsigned int c;
+	char alphabet = 'a';
 
-	for (c = 0; c < sizeof(dbtosine); c++)
+	while (alphabet <= 'z')
 	{
-
-	_putchar(dbtosine[c]);
+		_putchar(alphabet);
+		alphabet++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
